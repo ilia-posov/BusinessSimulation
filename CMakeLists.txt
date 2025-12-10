@@ -7,7 +7,7 @@
 
 cmake_minimum_required(VERSION 4.0)
 
-project(C____Catch_2_0__Course)
+project(BusinessSimulationCourse)
 
 set(TEST_DIR ${PROJECT_SOURCE_DIR}/test-framework)
 

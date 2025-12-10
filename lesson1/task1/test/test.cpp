@@ -1,6 +1,5 @@
-// Indicates that the `main` function is need to be set.
-// Add this directive only in a one test file!
-#define CATCH_CONFIG_MAIN
+// The main function is now provided by the catch_main library
+// which is shared across all test targets for faster compilation
 
 #include <catch.hpp>
 

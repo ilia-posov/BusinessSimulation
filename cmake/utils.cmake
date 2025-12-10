@@ -33,7 +33,7 @@ macro(configure_test_target _target_name _src_files _test_files)
     add_executable(${_target_name} ${_test_files})
 
     # Add files from `_src_files` set to target
-    target_link_libraries(${_target_name} ${_src_part_lib})
+    target_link_libraries(${_target_name} ${_src_part_lib} catch_main)
 
     unset(_test_source)
 endmacro()

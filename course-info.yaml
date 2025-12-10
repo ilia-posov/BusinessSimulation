@@ -2,6 +2,8 @@ type: marketplace
 title: Business Simulation
 language: English
 summary: Business Simulation
+vendor:
+  name: Joost Berkhout
 programming_language: C/C++
 environment: Catch
 content:
@@ -10,15 +12,21 @@ additional_files:
   - name: CMakeLists.txt
   - name: cmake/utils.cmake
   - name: cmake/catch.cmake
-  - name: cmake-build-debug/CMakeFiles/clion-Debug-log.txt
-  - name: cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
-  - name: cmake-build-debug/CMakeFiles/TargetDirectories.txt
-  - name: cmake-build-debug/CMakeFiles/Makefile2
-  - name: cmake-build-debug/CMakeFiles/progress.marks
-  - name: cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
-  - name: cmake-build-debug/CMakeFiles/InstallScripts.json
-  - name: cmake-build-debug/CMakeFiles/cmake.check_cache
-  - name: cmake-build-debug/CMakeFiles/Makefile.cmake
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_CXX.bin
+  - name: .coursecreator/Business_Simulation.zip
     is_binary: true
+  - name: cmake-build-debug/CMakeFiles/progress.marks
+  - name: cmake-build-debug/CMakeFiles/Makefile2
+  - name: cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
+  - name: cmake-build-debug/CMakeFiles/Makefile.cmake
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/includes_CXX.rsp
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/flags.make
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/link.txt
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/compiler_depend.ts
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/depend.make
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/cmake_clean.cmake
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/build.make
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/progress.make
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/DependInfo.cmake
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/compiler_depend.make
+  - name: cmake-build-debug/CMakeFiles/catch_main.dir/cmake_clean_target.cmake
 yaml_version: 5
