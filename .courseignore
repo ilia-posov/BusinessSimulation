@@ -1,0 +1,5 @@
+syntax: regexp
+
+# Do not automatically add files from these directories to the archive
+^\.git/
+(^|/)cmake-build-debug/
