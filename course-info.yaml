@@ -6,6 +6,7 @@ vendor:
   name: Joost Berkhout
 programming_language: C/C++
 environment: Catch
+solutions_hidden: true
 content:
   - lesson1
   - lesson2
@@ -13,27 +14,4 @@ additional_files:
   - name: CMakeLists.txt
   - name: cmake/utils.cmake
   - name: cmake/catch.cmake
-  - name: .coursecreator/Business_Simulation.zip
-    is_binary: true
-  - name: cmake-build-debug/CMakeFiles/InstallScripts.json
-  - name: cmake-build-debug/CMakeFiles/TargetDirectories.txt
-  - name: cmake-build-debug/CMakeFiles/progress.marks
-  - name: cmake-build-debug/CMakeFiles/Makefile2
-  - name: cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
-  - name: cmake-build-debug/CMakeFiles/Makefile.cmake
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_CXX.bin
-    is_binary: true
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
-    is_binary: true
-  - name: cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
-  - name: cmake-build-debug/CMakeFiles/clion-Debug-log.txt
-  - name: cmake-build-debug/CMakeFiles/catch_main.dir/test-framework/catch_main.cpp.obj.d
-  - name: cmake-build-debug/CMakeFiles/catch_main.dir/test-framework/catch_main.cpp.obj
-    is_binary: true
-  - name: cmake-build-debug/CMakeFiles/catch_main.dir/Unity/unity_0_cxx.cxx.obj.d
-  - name: cmake-build-debug/CMakeFiles/catch_main.dir/Unity/unity_0_cxx.cxx.obj
-    is_binary: true
 yaml_version: 5
-solutions_hidden: true
