@@ -13,7 +13,7 @@ set(CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING "Build type" FORCE)
 
 set(CMAKE_UNITY_BUILD ON)
 
-set(TEST_DIR ${PROJECT_SOURCE_DIR}/test-framework)
+set(TEST_DIR ${PROJECT_SOURCE_DIR}/catch2-test-framework)
 
 include(cmake/catch.cmake)
 fetch_catch(${TEST_DIR})
