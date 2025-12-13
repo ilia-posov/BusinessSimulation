@@ -1,8 +1,4 @@
-// Indicates that the `main` function is need to be set.
-// Add this directive only in a one test file!
-#define CATCH_CONFIG_MAIN
-
-#include <catch.hpp>
+#include <catch2/catch_test_macros.hpp>
 
 // Headers of objects that student should implement:
 int sum(int a, int b);

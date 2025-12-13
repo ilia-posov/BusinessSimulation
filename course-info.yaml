@@ -14,6 +14,4 @@ additional_files:
   - name: CMakeLists.txt
   - name: cmake/utils.cmake
   - name: cmake/catch.cmake
-  - name: catch2-test-framework/catch.hpp
-  - name: catch2-test-framework/catch_main.cpp
 yaml_version: 5

@@ -1,16 +1,10 @@
-macro(fetch_catch _test_dir)
+include(FetchContent)
 
-    # Create a catch_main.cpp file if it doesn't exist
-    set(CATCH_MAIN_CPP "${_test_dir}/catch_main.cpp")
-    if (NOT EXISTS ${CATCH_MAIN_CPP})
-        file(WRITE ${CATCH_MAIN_CPP} "#define CATCH_CONFIG_MAIN\n#include <catch.hpp>\n")
-    endif()
-
-    # Create library with Catch2 main (only once per project)
-    if (NOT TARGET catch_main)
-        add_library(catch_main STATIC ${CATCH_MAIN_CPP})
-        target_include_directories(catch_main PUBLIC "${_test_dir}")
-    endif()
-
-    include_directories("${_test_dir}")
+macro(fetch_catch)
+    FetchContent_Declare(
+            Catch2
+            URL https://github.com/catchorg/Catch2/archive/refs/tags/v3.11.0.tar.gz
+            URL_HASH SHA256=82fa1cb59dc28bab220935923f7469b997b259eb192fb9355db62da03c2a3137
+    )
+    FetchContent_MakeAvailable(Catch2)
 endmacro()

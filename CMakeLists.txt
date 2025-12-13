@@ -5,7 +5,7 @@
 # Tasks are added as separate sub-projects so as compilation errors in
 # one task don't affect another task.
 
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.24)
 
 project(BusinessSimulationCourse)
 
@@ -13,10 +13,8 @@ set(CMAKE_BUILD_TYPE "RelWithDebInfo" CACHE STRING "Build type" FORCE)
 
 set(CMAKE_UNITY_BUILD ON)
 
-set(TEST_DIR ${PROJECT_SOURCE_DIR}/catch2-test-framework)
-
 include(cmake/catch.cmake)
-fetch_catch(${TEST_DIR})
+fetch_catch()
 
 # Add tasks subprojects
 include(cmake/utils.cmake)

@@ -1,7 +1,4 @@
-// The main function is now provided by the catch_main library
-// which is shared across all test targets for faster compilation
-
-#include <catch.hpp>
+#include<catch2/catch_test_macros.hpp>
 
 // Headers of objects that student should implement:
 int sum(int a, int b);
